@@ -1,0 +1,47 @@
+Norme: ./errores.txt
+Warning: Not a valid file
+Norme: ./error.txt
+Warning: Not a valid file
+Norme: ./ft_lstadd_back.c
+Error (line 22, col 2): missing space after return
+Norme: ./ft_lstiter.c
+Error: file must end with a single empty line
+Error (line 15): Space before function name
+Error (line 22, col 0): no newline after block
+Norme: ./ft_lstlast.c
+Error (line 19, col 10): space before arrow
+Error (line 19, col 10): space after arrow
+Error (line 21, col 12): space before arrow
+Error (line 21, col 12): space after arrow
+Norme: ./ft_lstnew.c
+Error: file must end with a single empty line
+Error (line 15): Space before function name
+Error (line 23, col 5): space before arrow
+Error (line 25, col 1): missing space after return
+Error (line 26): Empty line
+Error (line 27, col 0): no empty line before block
+Error (line 27, col 0): no newline after block
+Norme: ./ft_lstclear.c
+Error: file must end with a single empty line
+Error (line 15): declarations must be followed by one empty line in ft_lstclear
+Error (line 15): Space before function name
+Error (line 18): spaces at the end of line
+Error (line 27, col 0): no newline after block
+Norme: ./ft_lstdelone.c
+Error: file must end with a single empty line
+Error (line 15): Space before function name
+Error (line 22, col 0): no newline after block
+Norme: ./ft_lstsize.c
+Error: file must end with a single empty line
+Error (line 15): declarations in ft_lstsize are bad aligned
+Error (line 25, col 12): space before arrow
+Error (line 25, col 12): space after arrow
+Error (line 28, col 0): no newline after block
+Norme: ./ft_lstmap.c
+Error (line 31, col 3): missing space after return
+Error (line 34, col 12): space before arrow
+Error (line 36, col 1): missing space after return
+Norme: ./ft_lstadd_front.c
+Error: file must end with a single empty line
+Error (line 15): Space before function name
+Error (line 19, col 0): no newline after block
