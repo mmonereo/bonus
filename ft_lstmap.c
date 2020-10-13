@@ -6,7 +6,7 @@
 /*   By: mmonereo <mmonereo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/25 17:23:44 by mmonereo          #+#    #+#             */
-/*   Updated: 2020/10/06 20:30:23 by mmonereo         ###   ########.fr       */
+/*   Updated: 2020/10/13 17:03:11 by mmonereo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@ void (*del)(void *))
 		if (!(new_e = ft_lstnew(f(lst->content))))
 		{
 			ft_lstclear(&new_l, del);
-			return(NULL);
+			return (NULL);
 		}
 		ft_lstadd_back(&new_l, new_e);
-		lst = lst ->next;
+		lst = lst->next;
 	}
-	return(new_l);
+	return (new_l);
 }

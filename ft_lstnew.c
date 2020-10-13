@@ -6,13 +6,13 @@
 /*   By: mmonereo <mmonereo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/23 20:19:31 by mmonereo          #+#    #+#             */
-/*   Updated: 2020/09/24 18:00:15 by mmonereo         ###   ########.fr       */
+/*   Updated: 2020/10/13 16:58:33 by mmonereo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)
 {
 	t_list *new;
 
@@ -20,8 +20,7 @@ t_list *ft_lstnew(void *content)
 	{
 		return (NULL);
 	}
-	new ->content = content;
+	new->content = content;
 	new->next = NULL;
-	return(new);
-
+	return (new);
 }
